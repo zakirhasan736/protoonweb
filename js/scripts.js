@@ -669,9 +669,12 @@ paceOptions = {
     eventLag: false
 };
 
-Pace.on('done', function () {
+$(window).on('load', function () { 
     $('#preloader').addClass("isdone");
     $('.loading').addClass("isdone");
+    $('body').delay(350).css({
+        'overflow': 'visible',
+      });
 });
 
 
