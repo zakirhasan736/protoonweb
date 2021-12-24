@@ -670,6 +670,7 @@ paceOptions = {
 };
 
 $(window).on('load', function () { 
+    $('.loadpace').addClass("isdone");
     $('#preloader').addClass("isdone");
     $('.loading').addClass("isdone");
     $('body').delay(350).css({
