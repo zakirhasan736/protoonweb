@@ -1,6 +1,6 @@
 <?php
 //get data from form  
-$name = $_POST['firstname' . 'lastname'];
+$name = $_POST['name'];
 $email= $_POST['email'];
 $message= $_POST['message'];
 $to = "zakirhossaib736@mail.com";
