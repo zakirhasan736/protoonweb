@@ -4433,12 +4433,14 @@ background-color: #111215;
 
 .services .step-item {
   text-align: center;
-  padding: 60px;
+  padding: 55px 35px;
   margin: 60px auto;
   background: #18191d;
   position: relative;
 }
-
+.services .step-item p{
+  line-height: 1.5;
+}
 .services .step-item.xbottom {
   bottom: -60px;
 }
@@ -4980,8 +4982,8 @@ background-color: #111215;
 }
 
 .portfolio .gallery .items {
-  padding: 0 50px;
-  margin: 50px 0;
+  padding: 0 20px;
+  margin: 0px 0 45px; 
 }
 
 .portfolio .gallery .items.lg-mr {
@@ -5051,7 +5053,7 @@ background-color: #111215;
 }
 
 .portfolio .gallery .items .cont {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   text-align: center;
 }
 
@@ -8789,3 +8791,36 @@ footer .item .copy-right p a {
 /* ====================== [ End Responsive ] ====================== */
 
 
+.service-desc{
+  font-size: 13px;
+  line-height: 1.5;
+  /* color: #fff; */
+  font-weight: 400;
+}
+.services-item .cont > *{
+  text-align: left !important;
+}
+.services-item .cont ul{
+  padding-left: 20px;
+  margin-top: 12px;
+}
+.services-item .cont ul li{
+  list-style: disc;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.banner-area-service-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.banner-area-service-list li{
+  font-size: 12px;
+  color: #999;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 400;
+    list-style: disc;
+    text-align: left;
+}
