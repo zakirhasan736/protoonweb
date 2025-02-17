@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://webdevzakir.tech/sitemap.xml
+Sitemap: https://www.webdevzakir.tech/sitemap.xml
