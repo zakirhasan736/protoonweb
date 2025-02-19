@@ -8824,3 +8824,28 @@ footer .item .copy-right p a {
     list-style: disc;
     text-align: left;
 }
+.date-time{
+  color: #a4a7b1 !important;
+  font-size: 12px;
+}
+.project-title{
+  font-size: 16px;
+}
+.item .job-type{
+  font-size: 12px;
+  color: #a4a7b1;
+}
+.project-reviewer-image img{
+  height: 100%;
+  object-fit: cover;
+}
+.testim-box .slick-dots {
+    position: relative !important;
+}
+.site-logo-title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
