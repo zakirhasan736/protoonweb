@@ -8849,3 +8849,12 @@ footer .item .copy-right p a {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.text-area-message{
+  height: 95px;
+}
+.submit-btn-styles{
+  color: #fff;
+}
+.submit-btn-styles:hover{
+  background: #fff !important;
+}
