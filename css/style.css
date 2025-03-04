@@ -8856,5 +8856,6 @@ footer .item .copy-right p a {
   color: #fff !important;
 }
 input#mc-embedded-subscribe:hover{
+  color: #000 !important;
   background: #fff !important;
 }
