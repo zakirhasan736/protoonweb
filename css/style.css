@@ -8852,9 +8852,9 @@ footer .item .copy-right p a {
 .text-area-message{
   height: 95px;
 }
-.submit-btn-styles{
-  color: #fff;
+ input.text.submit-btn-styles{
+  color: #fff !important;
 }
-.submit-btn-styles:hover{
+input.text.submit-btn-styles:hover{
   background: #fff !important;
 }
