@@ -8859,3 +8859,6 @@ input#mc-embedded-subscribe:hover{
   color: #000 !important;
   background: #fff !important;
 }
+.block-sec .testim-box .item .info .img .img-box img{
+	height: 100% !important;
+        object-fit: cover;
