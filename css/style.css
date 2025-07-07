@@ -296,7 +296,7 @@ a:hover, span:hover {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 65px 0;
 }
 
 .section-ptb {
@@ -8862,4 +8862,20 @@ input#mc-embedded-subscribe:hover{
 .block-sec .testim-box .item .info .img .img-box img{
 	height: 100% !important;
         object-fit: cover;
+}
+.about.section-padding {
+  padding: 65px 0;
+}
+.skills-item-text{
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.skills-item-text span:first-child{
+  color: #ffffff;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.skills-item-text span:lastt-child{
+  font-size: 10px;
 }
